@@ -1,22 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.MainPhotoSection {
+  color: white;
+}
+
+.Name {
+  text-align: 'center';
+  vertical-align: 'middle';
+  font-family: 'Arial';
+  font-size: 30;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+
+.Btn {
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  color: #111;
+  background: rgba(255,255,255, .8);
+  height: auto;
+  padding: 10px 10px;
+  width: 100px;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  box-shadow: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  align-self: center;
+  margin: 10px;
+  transition: background-color 0.5s ease;
+}
+
+.Btn:hover {
+  background: #fff;
+  opacity: 1;
+  text-decoration: none;
+  color: #111;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.page-section {
+    background-color: #fff;
+    margin: auto;
+    display: block;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 50px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 672px){
+.section-content {
+  column-count: 1;
+  column-gap: 2em;
+}
+}
+
+@media (min-width: 972px){
+.page-section {
+    width: 970px;
+}
+.section-content {
+  column-count: 1;
+  column-gap: 2em;
+}
+}
+
+
+
+.section-heading {
+  font-family: 'Arial';
+  color: black;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  line-height: 1.4;
+  margin-bottom: 60px;
+}
+
+.portfolio-heading {
+  font-family: 'Arial';
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  margin-left: 0.4em;
+  line-height: 1.4;
+  margin-bottom: 50px;
+}
+
+.portfolio-subheading {
+  font-family: "Open Sans", arial, sans-serif;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 300;
+
+  color: #777;
+  line-height: 1.7;
+  text-align: justify;
+  padding: 0;
+}
+
+.section-content {
+  font-family: "Open Sans", arial, sans-serif;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 300;
+  color: #777;
+  line-height: 1.7;
+  text-align: justify;
+  padding: 0;
+}
+
+
+.container {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-title{
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.project-description{
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 1.2;
+}
+
+.img-with-text {
+    text-align: center;
+    width: 75px;
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.7;
+    margin: 25px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
