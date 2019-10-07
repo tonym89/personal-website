@@ -132,7 +132,6 @@
   overflow: hidden;
   font-size: 15px;
   font-weight: 300;
-
   color: #777;
   line-height: 1.7;
   text-align: justify;
@@ -173,6 +172,7 @@
   text-transform: uppercase;
   color: #000;
   line-height: 1.2;
+  font-family: "Dosis", sans-serif;
 }
 
 .img-with-text {
