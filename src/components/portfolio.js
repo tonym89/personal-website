@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
   render() {
     return (
       <div>
-          <div className="page-section">
+          <div className="page-section " style={{backgroundColor: '#F9F9F9', color: "#fff", width: '100vw' }}>
             <h1 className="portfolio-heading" id="portfolio">Portfolio</h1>
             <p className="portfolio-subheading" style={{textAlign: 'center', marginBottom:"40px"}}>A selection of my work</p>
               <div className="container" >
